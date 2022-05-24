@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+/*---------BEGIN----------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.container{
+    background-image: url(./IMG/background.png);
+    height: 95vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Caveat', cursive;
+    
+}
+
+/*--------HEADER---------*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s;
+    height: 60px;
+}
+
+
+
+.icons i{
+    color: #fff;
+    font-weight: 600;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul a{
+    text-decoration: none;
+    cursor: default;
+}
+
+
+
+header ul li{
+    margin: 10px;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+header img{
+    width: 50px;
+    border-radius: 50%;
+    
+}
+
+.logo{
+    display: flex;
+    color: white;
+    margin-right: 100px;
+    cursor: pointer;  
+}
+
+/*--------------HOVER-----------------*/
+
+header:hover{
+    background-color: #1948c7;
+}
+
+header ul a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.icons i:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.span:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.square:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+
+.span.pan:hover{
+    background-image: url(./IMG/SAIA\ BRANCA2.jpg);
+    transition: all 1s;
+}
+
+
+
+.span.panpan:hover{
+    background-image: url(./IMG/VESTIDO\ ROSE2.jpg);
+    transition: all 1s;
+}
+
+.square.section:hover{
+    background-image: url(./IMG/JARDINEIRA2.jpg);
+    transition: 1s;
+}
+
+.square.section1:hover{
+    background-image: url(./IMG/SAIA\ PRETA2.jpg);
+    transition: 1s;
+}
+
+.square.section2:hover{
+    background-image: url(./IMG/SAIA\ CIREE2.jpg);
+    transition: 1s;
+}
+
+
+.span button:hover{
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.5s;
+    box-shadow: 0px 1px 10px #343b88;
+    background-color: #1948c7;
+    cursor: pointer;
+}
+
+
+.square button:hover{
+    color: white;
+    transition: all 0.5s;
+    box-shadow: 0px 1px 10px #C45534;
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*-----------MAIN-------------------*/
+
+.main{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main .main1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin: 70px 0 0 0px;
+    font-size: 30px;
+    
+}
+
+.main2{
+    display: flex;
+    max-width: 500px;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: 1s;
+
+}
+
+.main2 input{
+    display: none;
+}
+
+.slide{
+    display: flex;
+    width: 25%;
+    position: relative;
+    transition: 2s;
+    margin-right: 375px;
+}
+.slide img{
+    width: 500px;
+}
+
+/*--------------MAIN 2 -----------------*/
+
+
+.mai{
+    
+    background-image: url(/IMG/backgroundr\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.sub{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FDF7B9;
+    padding: 15px 0 0 25px;
+}
+
+.subsub{
+    display: flex;
+    padding: 15px 0 0 25px;
+}
+
+.span.pan{
+    margin-right: 35px;
+    background-image: url(./IMG/SAIA\ BRANCA.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 1s;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    transition: 1s;
+}
+
+.span.panpan{
+    background-image: url(./IMG/VESTIDO\ ROSE\ .jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    align-items: flex-end;
+}
+
+.span button{
+    border: none;
+    background-color: #1F3DB9;
+    margin-bottom: 30px;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.span{
+    width: 300px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 15px;
+    
+}
+
+
+
+.square{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: white;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+.square button{
+    border: none;
+    background-color: #E05F37;
+    margin-bottom: 30px;
+    width: 100px;
+    height: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.square.section{
+    background-image: url(./IMG/JARDINEIRA.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+
+.square.section1{
+    background-image: url(./IMG/SAIA\ PRETA.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+
+.square.section2{
+    background-image: url(./IMG/SAIA\ CIRRE.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+
+.square.section3{
+    background-image: url(./IMG/BOLSA\ LATERAL.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+
+/*----------------MAIN 3 ----------------*/
+
+.plus{
+    height: 500px;
+    background-color: #1D41BD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus-sub{
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.plus-sub h1{
+    color: #FDF7B9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.plus-sub input{
+    width: 450px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 15px;
+    font-weight: 13px;
+    margin-top: 10px;
+}
+
+
+
+::-webkit-input-placeholder{
+    color: black;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#send{
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    cursor: pointer;
+}
+
+
+.social{
+    color: #FDF7B9;
+    font-size: 46px;
+}
+
+.social i{
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+.plus-sub h3{
+    color: #FDF7B9;
+    margin-top: 10px;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
