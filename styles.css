@@ -145,14 +145,25 @@ header ul a:hover{
 
 }
 
+.plus i:hover:nth-child(1){
+    transform: scale(1.03);
+    transition: 1s;
+}
 
+.plus i:hover:nth-child(2){
+    transform: scale(1.03);
+    transition: 1s;
+}
 
+.plus i:hover:nth-child(3){
+    transform: scale(1.03);
+    transition: 1s;
+}
 
-
-
-
-
-
+footer div ul a:hover{
+    text-decoration: underline;
+    color: white;
+}
 
 /*-----------MAIN-------------------*/
 
@@ -319,7 +330,8 @@ main .main1{
 
 .plus{
     height: 500px;
-    background-color: #1D41BD;
+    background-image: url(./IMG/background3.png);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -386,4 +398,57 @@ main .main1{
     font-size: 26px;
     font-family: Arial, Helvetica, sans-serif;
     
+}
+
+
+/*--------FOOTER------------------*/
+
+footer{
+    height: 400px;
+    background-image: url(./IMG/footer.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img{
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FDF7B9;
+}
+
+.sub-footer ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.sub-footer ul li{
+    margin-right: 10px;
+}
+
+.sub-footer ul a{
+    text-decoration: none;
+    color: #FDF7B9;
+}
+
+footer div hr{
+    width: 100%;
+    border: 0.54px solid rgba(0, 0, 0, 0.514);
+    margin: 10px;
+}
+
+footer div p{
+    margin-top: 30px;
+    font-size: 10px;
 }
