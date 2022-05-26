@@ -165,6 +165,16 @@ footer div ul a:hover{
     color: white;
 }
 
+.hexa img:hover{
+    transform: scale(1.02);
+    transition: 1s;
+}
+
+.hexa img:not(:hover){
+    transform: scale(1);
+    transition: 1s;
+}
+
 /*-----------MAIN-------------------*/
 
 .main{
@@ -191,8 +201,6 @@ main .main1{
     max-width: 500px;
     overflow: hidden;
     border-radius: 15px;
-    transition: 1s;
-
 }
 
 .main2 input{
@@ -208,6 +216,10 @@ main .main1{
 }
 .slide img{
     width: 500px;
+}
+
+.hexa{
+    display: none;
 }
 
 /*--------------MAIN 2 -----------------*/
@@ -451,4 +463,67 @@ footer div hr{
 footer div p{
     margin-top: 30px;
     font-size: 10px;
+}
+
+
+/*---------RESPONSIVE-------------*/
+
+@media (max-width:1510px) {
+    .section2{
+        margin-right: 50px;
+    }
+}
+
+
+@media (max-width:1370px){
+
+    .slide{
+        display: none;
+    }
+
+   .slide img{
+       display: none;
+   }
+
+   .main2{
+       max-width: 500px;
+   }
+   .main1{
+        width: 600px;
+        text-align: center;
+   }
+   .main1 h1{
+        margin-left: 100px;
+   }
+
+   .hexa{
+       margin-top: 20px;
+      display: block;
+      width: 400px;
+   }
+
+   .hexa p{
+       margin-top: 10px;
+       color: #fff;
+       font-size: 19px;
+   }
+
+   .hexa img{
+       border-radius: 20px;
+       width: 350px;
+       height: 350px;
+    }
+
+    .span{
+        width: 350px;
+        height: 400px;
+        
+    }
+
+    .square{
+
+        width: 150px;
+        height: 150px;
+        margin-left: 60px;
+    }
 }
