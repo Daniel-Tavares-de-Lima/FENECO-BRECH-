@@ -72,6 +72,10 @@ header img{
     cursor: pointer;  
 }
 
+#bars{
+    display: none;
+}
+
 /*--------------HOVER-----------------*/
 
 header:hover{
@@ -525,5 +529,153 @@ footer div p{
         width: 150px;
         height: 150px;
         margin-left: 60px;
+    }
+}
+
+@media (max-width:1005px){
+    .container{
+        height: 80vh;
+    }
+
+    .main1 h1{
+        font-size: 40px;
+        margin:0 auto;
+    }
+
+    .main1{
+        width: 50px;
+        display: flex;
+        height: 200px;
+        
+    }
+
+}
+
+@media (max-width:925px){
+    .hexa img{
+        width: 290px;
+        height: 290px;
+    }
+
+    .hexa{
+        text-align: center;
+    }
+
+    .span img{
+
+    }
+
+    .span{
+        margin-top: 50px;
+        height: 300px;
+    }
+
+    .square{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:780px){
+    .hexa img{
+        width: 240px;
+        height: 240px;
+    }
+
+    .main1 h1{
+        font-size: 35px;
+    }
+
+    .hexa p{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+
+    .span{
+        width: 300px;
+    }
+
+    .square{
+        margin-left:20px;
+    }
+}
+
+@media (max-width: 725px){
+    .span{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: white;
+    margin-top: 120px;
+    }
+
+    .span button{
+        border: none;
+        background-color: #1F3DB9;
+        margin-bottom: 30px;
+        width: 100px;
+        height: 20px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+@media (max-width: 700px){
+    .icons{
+        display: none;
+    }
+
+    .logo img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo h1{
+        font-size: 22px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    #outlet{
+        display: none;
+    }
+
+    #bars{
+        display: block;
+        color: white;
+        margin-right: 50px;
+        font-size: 25px;
+    }
+
+    .main h1{
+        margin-left: 5px;
+    }
+
+    
+}
+
+@media (max-width:670px){
+    .main1 h1{
+        font-size: 25px;
+    }
+
+    .hexa img{
+        width: 220px;
+        height: 220px;
+    }
+
+    .mai{
+        height: 500px;
+    }
+
+    .span{
+        margin-top: 100px;
+    }
+
+    .square{
+        width: 120px;
+        height: 120px;
     }
 }
