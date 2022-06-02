@@ -247,7 +247,15 @@ main .main1{
     display: flex;
     padding: 15px 0 0 25px;
 }
+/*REFERENTE A VERSÃO MOBILE*/
+.sub-mobile{
+    display: none;
+}
 
+.sub-mobile2{
+    display: none;
+}
+/*--------------------------*/
 .span.pan{
     margin-right: 35px;
     background-image: url(./IMG/SAIA\ BRANCA.jpg);
@@ -546,7 +554,6 @@ footer div p{
         width: 50px;
         display: flex;
         height: 200px;
-        
     }
 
 }
@@ -573,6 +580,19 @@ footer div p{
     .square{
         margin-top: 50px;
     }
+}
+
+@media (max-height:1370px){
+    .container{
+        height: 60vh;
+    }
+}
+
+@media (max-height:830px){
+    .main{
+        height: 600px;
+    }
+
 }
 
 @media (max-width:780px){
@@ -647,6 +667,7 @@ footer div p{
         color: white;
         margin-right: 50px;
         font-size: 25px;
+        cursor: pointer;
     }
 
     .main h1{
@@ -662,8 +683,8 @@ footer div p{
     }
 
     .hexa img{
-        width: 220px;
-        height: 220px;
+        width: 200px;
+        height: 200px;
     }
 
     .mai{
@@ -678,4 +699,181 @@ footer div p{
         width: 120px;
         height: 120px;
     }
+}
+
+
+@media (max-width:605px){
+
+    .container{
+        height: 70vh;
+    }
+    main .main1{
+        width: 400px;
+    }
+
+    .main1 h1{
+        font-size: 20px;
+    }
+    .hexa img{
+        margin-right: 25px;
+    }
+
+    .square{
+        width: 100px;
+        height: 100px;
+    }
+
+    .square button{
+        margin-bottom: 10px;
+        width: 80px;
+    }
+}
+
+@media (max-width: 535px){
+
+    .container{
+        height: 60vh;
+    }
+    header ul{
+        display: none;
+    }
+
+    header .logo{
+        margin-left: 20px;
+    }
+
+    .main{
+        flex-direction: column;
+    }
+
+    main .main1{
+        height: 100px;
+        margin-top: 0;
+        width: 200px;
+    }
+
+    .main2{
+        margin-bottom: 200px;
+        margin-left: 20px;
+    }
+
+    .hexa{
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .span{
+        width: 120px;
+        height: 120px;
+    }
+
+    .span button{
+        margin-bottom: 10px;
+        width: 80px;
+    }
+
+    .plus-sub input{
+        width: 400px;
+    }
+
+    #send{
+        right: 70px;
+    }
+}
+
+/*----RESPONSIVE MOBILE------*/
+
+
+@media (max-width:490px){
+    .mai{
+        height: 550px;
+    }
+    .sub{
+        text-align: center;
+    }
+
+    .subsub{
+        display: none;
+    }
+
+    .sub-mobile{
+        display: inline-block;
+        display: flex;
+    }
+
+    .sub-mobile2{
+        display: inline-block;
+        display: flex;
+    }
+
+    .mobile{
+        background-color: white;
+        width: 130px;
+        height: 200px;
+        border-radius: 30px;
+        margin: 10px 20px;
+    }
+
+
+    .plus-sub h1{
+        font-size: 45px;
+    }
+
+    #send{
+        top: 142px;
+    }  
+
+}
+
+
+@media (max-width:400px){
+
+    .mai{
+        height: 500px;
+    }
+
+    .mobile{
+        height: 160px;
+    }
+
+    .plus-sub h1{
+        font-size: 37px;
+    }
+
+    .plus-sub input{
+        width: 330px;
+    }
+
+    #send{
+        top: 127px;
+        right: 105px;
+    }
+    
+}
+
+@media (max-width:375px){
+    .hexa{
+        width: 350px;
+    }
+}
+
+@media (max-width:360px){
+    .plus{
+        height: 400px;
+    }
+
+    .sub-footer ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer img{
+        margin-bottom: 10px;
+    }
+
+    .sub-footer ul a{
+        margin-top: 10px;
+    }
+    
 }
