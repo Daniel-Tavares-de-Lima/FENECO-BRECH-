@@ -16,7 +16,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Caveat', cursive;
-    
 }
 
 /*--------HEADER---------*/
@@ -568,10 +567,6 @@ footer div p{
         text-align: center;
     }
 
-    .span img{
-
-    }
-
     .span{
         margin-top: 50px;
         height: 300px;
@@ -579,12 +574,6 @@ footer div p{
 
     .square{
         margin-top: 50px;
-    }
-}
-
-@media (max-height:1370px){
-    .container{
-        height: 60vh;
     }
 }
 
