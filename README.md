@@ -1,3 +1,4 @@
 # FENECO-BRECH-
 UM WEBSITE STORE COM INCREMENTOS BÁSICOS DE JAVASCRIPT.
-![DEMONSTRACION].(https://github.com/Daniel-Tavares-de-Lima/FENECO-BRECH-/blob/main/LADING%20PAGE.gif)
+
+![DEMONSTRACION](https://github.com/Daniel-Tavares-de-Lima/FENECO-BRECH-/blob/main/LADING%20PAGE.gif)
