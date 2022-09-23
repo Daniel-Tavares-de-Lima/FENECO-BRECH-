@@ -132,20 +132,30 @@ header ul a:hover{
 .span button:hover{
     color: white;
     transform: scale(1.1);
-    transition: all 0.5s;
+    transition: all 1s;
     box-shadow: 0px 1px 10px #343b88;
     background-color: #1948c7;
     cursor: pointer;
 }
 
+.span button:not(:hover)
+{
+    transform: scale(1);
+    transition: 1s;
+}
+
 
 .square button:hover{
     color: white;
-    transition: all 0.5s;
+    transition: all 1s;
     box-shadow: 0px 1px 10px #C45534;
     transform: scale(1.1);
     cursor: pointer;
+}
 
+.square button:not(:hover){
+    transform: scale(1);
+    transition: 1s;
 }
 
 .plus i:hover:nth-child(1){
@@ -229,8 +239,7 @@ main .main1{
 
 
 .mai{
-    
-    background-image: url(/IMG/backgroundr\ \(1\).png);
+    background-image: url(/IMG/backgroundrMain.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
@@ -321,8 +330,6 @@ main .main1{
     height: 20px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    
-    
 }
 
 .square.section{
@@ -581,7 +588,6 @@ footer div p{
     .main{
         height: 600px;
     }
-
 }
 
 @media (max-width:780px){
